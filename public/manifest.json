@@ -1,0 +1,32 @@
+{
+  "id": "aw-photoshop",
+  "name": "aw-photoshop",
+  "version": "1.0.0",
+  "main": "index.html",
+  "manifestVersion": 4,
+  "host": [
+    {
+      "app": "PS",
+      "minVersion": "23.0.0"
+    }
+  ],
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "main",
+      "label": {
+        "default": "aw-photoshop"
+      },
+      "minimumSize": {
+        "width": 400,
+        "height": 200
+      },
+      "maximumSize": {
+        "width": 400,
+        "height": 200
+      },
+      "icons": [{ "width": 23, "height": 23, "path": "icon.png", "scale": [1, 2] }]
+    }
+  ],
+  "icons": [{ "width": 23, "height": 23, "path": "icon.png", "scale": [1, 2] }]
+}
